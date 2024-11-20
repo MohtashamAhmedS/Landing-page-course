@@ -1,0 +1,692 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --white: white;
+  --primary-color: #fff2d7;
+  --secondary-color: #ffe0b5;
+  --black: black;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.home-page {
+  background-image: url("https://images.unsplash.com/photo-1589987607627-616cac5c2c5a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.home-page h1 {
+  font-size: 3rem;
+}
+
+.logo-div {
+  padding: 15px 10px;
+}
+
+.logo-gif {
+  width: 53px;
+  height: 53px;
+}
+
+.logo-img {
+  width: 142px;
+}
+
+.homePage-con {
+  width: 320px;
+}
+
+.homePage-con-para {
+  color: var(--white);
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 60px;
+  margin-left: 14px;
+  margin-top: 56px;
+}
+
+.homePage-con-para span {
+  transition: 0.2s;
+}
+
+.homePage-con-para span:hover {
+  color: var(--black);
+}
+
+.homePage-input-con {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.homePage-inputField {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(2px);
+  border: none;
+  width: 260px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 5px;
+  outline: none;
+  border-radius: 6px;
+}
+
+.homePage-inputField::placeholder {
+  color: #6f6f6f;
+  font-size: 20px;
+}
+
+.homePage-inputField:focus {
+  font-size: 20px;
+}
+
+.homePage-button-div {
+  /* margin: 0px 0px; */
+  margin-left: 16px;
+}
+.homePage-btn {
+  background: var(white);
+  border: none;
+  font-size: 20px;
+  width: 279px;
+  border-radius: 6px;
+  padding: 1px 14px;
+  transition: 0.5s;
+}
+
+.homePage-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.homePage-button-img {
+  display: none;
+}
+
+.homePage-button-img:hover {
+  color: black;
+}
+
+.homePage-footer {
+  color: white;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+.journeyCon {
+  background-color: var(--primary-color);
+}
+
+.journeyCon-main {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.journeyCon-heading {
+  text-align: center;
+  font-size: 64px;
+  letter-spacing: -3px;
+  padding: 25px 0px;
+}
+.journeyCon-heading span {
+  transition: -webkit-text-stroke 0.2s, text-stroke 0.2s,
+    -webkit-text-fill-color 0.2s;
+}
+
+.journeyCon-heading span:hover {
+  -webkit-text-stroke: 3px #000;
+  text-stroke: 3px #000;
+  -webkit-text-fill-color: transparent;
+}
+
+.journeyCon-main-text {
+  padding: 0px 20px;
+}
+.journeyCon-main-heading {
+  font-weight: 500;
+  font-size: 42px;
+  letter-spacing: -2px;
+}
+.journeyCon-main-para {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+
+.journeyCon-main-reverse {
+  background-color: var(--secondary-color);
+}
+
+.testimonialsCon {
+  background-color: var(--primary-color);
+  padding: 50px 0px;
+  padding-bottom: 130px;
+}
+
+.testimonialsCon-main {
+  background-color: var(--secondary-color);
+  text-align: center;
+  margin: 0px 20px;
+  padding: 25px 0px;
+  border-radius: 9px;
+}
+
+.testimonialsCon-heading {
+  font-size: 36px;
+  letter-spacing: -1px;
+}
+
+.testimonialsCon-text {
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 33px;
+  margin-bottom: 22px;
+}
+
+.testimonialsCon-clientName {
+  font-weight: 600;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* .testimonialsCon-img {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+} */
+
+.circle-active {
+  background-color: #5a5a5a !important;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /* Ensures the element is a circle */
+  background-color: #d9d9d9; /* Change the color as needed */
+  display: inline-block; /* Allows elements to be displayed inline */
+  margin-right: 5px; /* Adjust the spacing between circles */
+}
+
+.testimonialsCon {
+  text-align: center;
+  /* margin: 50px; */
+}
+
+.testimonialsCon-main {
+  position: relative;
+}
+
+.testimonial {
+  display: none;
+}
+
+.testimonial.active {
+  display: block;
+}
+
+.testimonialsCon-arrows {
+  margin-top: 20px;
+}
+
+.arrow {
+  background: none;
+  border: 2px solid black;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: white;
+  border-radius: 63px;
+  padding: 0px 10px;
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  background-color: black;
+}
+
+.arrow:hover i {
+  color: white;
+}
+
+.testimonialsCon-circle {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.circle-active {
+  background-color: black;
+}
+.teamCon {
+  background-image: url(https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0px;
+}
+
+.teamCon-main {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(30px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  margin: 0px 25px;
+  transition: backdrop-filter 0.5s;
+  text-align: center;
+}
+
+.teamCon-main:hover {
+  backdrop-filter: blur(80px);
+}
+
+.teamCon-heading {
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: -2px;
+  padding: 15px 0px;
+  color: white;
+  font-weight: 500;
+}
+
+.teamCon-main-inner {
+  color: white;
+  padding: 0px 50px;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.teamCon-main-heading {
+  font-weight: 400;
+}
+
+.contactCon {
+  background-color: var(--primary-color);
+  padding: 50px 10px;
+}
+
+.contactCon-main {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.contactCon-main1 {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 25px;
+}
+
+.contactCon-heading {
+  font-size: 48px;
+  letter-spacing: -3px;
+  font-weight: 500;
+}
+
+.contactCon-input {
+  background: none;
+  border: none;
+  border-bottom: 3px solid;
+  margin: 15px 0px;
+  font-size: 20px;
+  outline: none;
+}
+
+.contactCon-btn {
+  background-color: transparent;
+  border: 3px solid;
+  font-size: 20px;
+  padding: 4px 30px;
+  margin-top: 15px;
+}
+
+.contactCon-btn:hover {
+  /* cursor: pointer; */
+  background-color: var(--black);
+  /* border: ; */
+  color: var(--white);
+}
+
+img.contactCon-img {
+  width: 380px;
+  padding: 5px 10px;
+}
+
+.journeyBtn {
+  /* width: 150px; */
+  padding: 5px 15px;
+  font-size: 18px;
+  background-color: transparent;
+  color: black;
+
+  cursor: pointer;
+  border: 1px solid #202020;
+  border-radius: -7px;
+  font-size: 18px;
+  transition: 0.5s;
+  margin-top: 15px;
+}
+
+.journeyBtn:hover {
+  background-color: white;
+  border: 1px solid #ffffff;
+  color: black;
+}
+
+@media (min-width: 1080px) {
+  /* Adjustments for screens wider than 768px */
+  .home-page {
+    background-position: top; /* Change background position for larger screens */
+  }
+  .homePage-con {
+    width: 728px;
+  }
+  .logo-div {
+    padding: 15px 25px;
+  }
+  .logo-gif {
+    width: 70px;
+    height: 69px;
+  }
+
+  .logo-img {
+    all: unset;
+  }
+  .homePage-con-para {
+    color: var(--white);
+    font-size: 82px;
+    letter-spacing: -3px;
+    line-height: 100px;
+    margin-left: 36px;
+    margin-top: 56px;
+  }
+  .homePage-input-con {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+  .homePage-inputField {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    outline: none;
+    margin-right: 30px;
+    border-radius: 6px;
+  }
+  .homePage-btn {
+    background: var(white);
+    border: none;
+    font-size: 22px;
+    width: 670px;
+    border-radius: 6px;
+    padding: 1px 14px;
+    height: 45px;
+  }
+  .homePage-button-div {
+    /* margin: 0px 0px; */
+    position: relative;
+    margin-left: 40px;
+  }
+  .homePage-button-img {
+    all: unset;
+    position: absolute;
+    top: -82px;
+    margin-left: 5px;
+  }
+  .homePage-footer {
+    color: white;
+    margin-left: 175px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+  }
+  .testimonialsCon {
+    text-align: center;
+    margin: 115px;
+  }
+  .journeyCon-main {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .journeyCon-main-reverse {
+    flex-direction: row-reverse;
+  }
+  .journeyCon-main-text {
+    padding: 0px 80px;
+    width: 480px;
+    text-align: left;
+  }
+
+  .journeyBtn i {
+    all: unset;
+    margin: -3.5px 0px;
+    margin-left: -15px;
+    visibility: hidden;
+    /* display: none; */
+    transition: 0.5s;
+  }
+
+  .journeyBtn:hover i {
+    visibility: visible;
+    margin-left: 5px;
+  }
+  .testimonialsCon-main {
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin: 0px 240px;
+    padding: 50px 100px;
+    border-radius: 9px;
+  }
+  .testimonialsCon-heading {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+  .teamCon-heading {
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: -4px;
+    padding: 15px 184px;
+    color: white;
+    font-weight: 500;
+  }
+  .teamCon-main2 {
+    display: flex;
+    justify-content: center;
+    /* padding: 20px 0px; */
+    padding-top: 22px;
+    padding-bottom: 40px;
+  }
+  .teamCon-main-inner {
+    color: white;
+    padding: 0px 50px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 150px;
+  }
+  .teamCon-main-heading {
+    font-weight: 200;
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+  .teamCon {
+    background-image: url(https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 250px;
+  }
+  .contactCon-main {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .contactCon-input {
+    background: none;
+    border: none;
+    border-bottom: 3px solid;
+    margin: 28px 0px;
+    font-size: 20px;
+    width: 425px;
+    outline: none;
+  }
+
+  .contactCon-heading {
+    font-size: 64px;
+    letter-spacing: -3px;
+    font-weight: 500;
+  }
+  .contactCon {
+    background-color: var(--primary-color);
+    padding: 100px 130px;
+  }
+  img.contactCon-img {
+    width: 525px;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 1680px) {
+  .contactCon {
+    background-color: var(--primary-color);
+    padding: 100px 270px;
+  }
+}
